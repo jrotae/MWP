@@ -1,0 +1,35 @@
+body {
+  font-family: "Righteous", cursive;
+  background-color: rgb(192, 192, 192);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+div.gallery {
+  width: 50%;
+}
+
+div.gallery:hover {
+  width: 100%;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 2px;
+  float: left;
+  width: 700px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
